@@ -1,0 +1,288 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#splashScreen {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    z-index: 9999;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.main-content {
+    display: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.my-profile {
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.my-profile p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: -0.2rem;
+    text-align: left;
+    color: #fff;
+}
+
+.my-profile h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 0 0 10px rgb(255, 255, 255, 0.2), 0 0 20px rgb(255, 255, 255, 0.2);
+}
+
+.my-profile h1:hover {
+    text-shadow: 0 0 10px rgb(255, 255, 255, 0.5), 0 0 20px rgb(255, 255, 255, 0.5);
+}
+
+.profile-pic {
+    text-align: right;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .my-profile h1 {
+        text-align: center;
+    }
+
+    .profile-pic {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.about-me {
+    color: #ffffff;
+    padding: 40px 0;
+    margin-top: 5rem;
+}
+
+.about-me .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.skills-container {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+}
+
+.skill-card {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skill-percentage {
+    height: 10px;
+    background-color: #0ebac5;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px 0 rgb(213, 252, 255, 0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 0 rgb(213, 252, 255, 0.61);
+}
+
+.card img {
+    border-radius: 0;
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card .card-title {
+    margin-bottom: 15px;
+}
+
+.card .card-text {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.card .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.card .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 2em;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.social-icons a.twitter {
+    text-shadow: 0 0 5px #00acee;
+}
+
+.social-icons a.linkedin {
+    text-shadow: 0 0 5px #0077b5;
+}
+
+.social-icons a.github {
+    text-shadow: 0 0 5px #333;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+    text-shadow: 0 0 15px #fff;
+}
+
+.contact-me {
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.contact-me h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-me form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-me input[type="text"],
+.contact-me input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-me button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-me button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 5rem;
+    font-size: 1rem;
+    border-top: 1px solid #a1a1a159;
+}
+
+footer p {
+    margin: 0 0 10px;
+}
+
+footer i {
+    margin-right: 5px;
+    color: #0ebac5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #0ebac5 !important;
+    border-color: #4fd1c5 !important;
+    color: #ffffff !important;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+    background-color: #0ebac5 !important;
+    border-color: #0ebac5 !important;
+}
+
+.btn-custom.focus,
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.25rem rgb(79, 209, 197, 0.5) !important;
+}
