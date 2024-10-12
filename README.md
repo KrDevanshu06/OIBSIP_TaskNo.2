@@ -3,4 +3,4 @@ Welcome to my personal portfolio repository! This portfolio is a reflection of m
 This portfolio serves as a personal and professional showcase of my abilities in web development. It's a platform where I can share my work with potential employers, clients, and fellow developers. Through this portfolio, I aim to connect with opportunities and communities that resonate with my passion for building meaningful and impactful web solutions.
 # Created a Personal Portfolio Website
 Portfolio by Devanshu Kumar 
--> Hosted Here: https://krdevanshu06.000.pe/?i=3
+-> Hosted Here: https://krdevanshu06.github.io/OIBSIP_TaskNo.2/
